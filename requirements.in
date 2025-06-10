@@ -3,5 +3,5 @@
 # `install_requires` in `setup.py`. This file should contain ranges of requirements, not pinned
 # versions.  It should contain only direct dependencies, not transitive dependencies. When you
 # update this file, run `tox -e pip-compile` to automatically update `requirements.txt`.
-lxml>=3.4,<4
+lxml>=3.4,<5
 requests>=2.6,<3
